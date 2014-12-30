@@ -1,7 +1,16 @@
 import httplib, socket
 acp = 0
 say = 0
-
+print """Admin Page Finder
+ _   __                   ___                  
+| | / /                  / _ \                 
+| |/ /  __ _ _ __ __ _  / /_\ \_   _  __ _ ____
+|    \ / _` | '__/ _` | |  _  | | | |/ _` |_  /
+| |\  \ (_| | | | (_| | | | | | |_| | (_| |/ / 
+\_| \_/\__,_|_|  \__,_| \_| |_/\__, |\__,_/___|
+                                __/ |          
+                               |___/
+Admin Page Finder | karaayaz_"""
 try:
     asp = open("asp.txt","r")
 except(IOError):
